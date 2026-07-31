@@ -1,6 +1,6 @@
 # Skills Catalog
 
-**Total Skills**: 410+ across 33+ categories
+**Total Skills**: 410+ across 34+ categories
 **Gateway Skills**: 40 (auto-discovered by Claude Code)
 **Agent Skills**: 3 (elegant-design, anti-slop, typed-holes-refactor)
 

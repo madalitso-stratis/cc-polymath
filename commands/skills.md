@@ -38,6 +38,7 @@ ls *.{json,md,go,py,rs,swift,zig,toml,yaml,yml} 2>/dev/null | head -20
 - `Cargo.toml` → **discover-wasm** if WASM, **discover-api** for web services
 - `build.zig` → **discover-zig**
 - `*.swift`, `*.xcodeproj` → **discover-mobile** (iOS/Swift)
+- `*.csproj`, `*.sln`, `*.slnx`, `global.json` → **discover-dotnet** (ASP.NET Core), **discover-mobile** if a `.maui`/`net*-android`/`net*-ios` target framework is present
 - `Dockerfile`, `docker-compose.yml` → **discover-infra**
 - `.beads/` → Beads workflow skills (root level)
 - `tests/`, `__tests__/` → **discover-testing**
@@ -54,6 +55,8 @@ Review the current conversation for:
 Map to gateway keywords:
 - "REST API" → **discover-api**
 - "GraphQL" → **discover-api**
+- ".NET", "C#", "ASP.NET Core", "Clean Architecture", "CQRS", "MediatR", "FastEndpoints", "Entity Framework" → **discover-dotnet**
+- ".NET MAUI", "MAUI" → **discover-mobile**
 - "Postgres", "MongoDB", "Redis" → **discover-database**
 - "Docker", "Kubernetes", "Terraform", "AWS", "GCP" → **discover-infra**
 - "CI/CD", "GitHub Actions", "Make", "CMake", "Bazel" → **discover-cicd**
@@ -204,10 +207,11 @@ BACKEND & DATA:
   discover-api (7)         - REST, GraphQL, auth, rate limiting
   discover-database (15)   - Postgres, MongoDB, Redis, caching, CDN
   discover-data (5)        - ETL, streaming, batch processing
+  discover-dotnet (5)      - Clean Architecture, CQRS/MediatR, FastEndpoints, EF Core, .NET Aspire
 
 FRONTEND & MOBILE:
   discover-frontend (13)   - React, Next.js, state management, TUI
-  discover-mobile (4)      - iOS, Swift, SwiftUI, concurrency
+  discover-mobile (12)     - iOS, Swift, SwiftUI, Android, .NET MAUI, concurrency
 
 INFRASTRUCTURE:
   discover-infra (30)      - AWS, GCP, Docker, Kubernetes, Terraform, Netlify

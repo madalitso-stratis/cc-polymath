@@ -1,6 +1,6 @@
 {
   "name": "cc-polymath-marketplace",
-  "description": "Official marketplace for cc-polymath: efficient skill management with progressive discovery across 33+ domains",
+  "description": "Official marketplace for cc-polymath: efficient skill management with progressive discovery across 34+ domains",
   "owner": {
     "name": "rand",
     "url": "https://github.com/rand/cc-polymath"
@@ -9,7 +9,7 @@
     {
       "name": "cc-polymath",
       "source": "./",
-      "description": "Efficient skill management with progressive discovery — 410+ production-ready skills across 33+ domains.",
+      "description": "Efficient skill management with progressive discovery — 410+ production-ready skills across 34+ domains.",
       "version": "4.0.0"
     }
   ]

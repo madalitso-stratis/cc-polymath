@@ -1,5 +1,5 @@
 ---
-name: fastendpoints-rest-api
+name: dotnet-fastendpoints-rest-api
 description: Building REST APIs in ASP.NET Core with FastEndpoints and the REPR pattern
 ---
 

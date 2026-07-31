@@ -151,7 +151,7 @@ git pull
 
 ### Skills Structure
 
-The 410+ skills across 33+ categories are identical:
+The 410+ skills across 34+ categories are identical:
 - Same gateway architecture
 - Same progressive loading
 - Same skill content and guidance
@@ -171,7 +171,7 @@ All discovery mechanisms work exactly the same:
 All existing workflows continue to work:
 - Gateway skills still activate based on project context
 - Skills still compose with each other
-- All 40 gateways, 33+ categories, 410+ skills unchanged
+- All 40 gateways, 34+ categories, 410+ skills unchanged
 
 ## Troubleshooting
 

@@ -41,7 +41,7 @@ Expected output:
 ✓ Found skills/README.md
 ✓ Found commands/skills.md
 ✓ Found 40 gateway skills
-✓ Skills catalog readable (33+ categories)
+✓ Skills catalog readable (34+ categories)
 ✓ File permissions OK
 
 ━━━ Summary ━━━
@@ -159,7 +159,7 @@ Let's make something visual:
 | `/skills` | Project recommendations | See skills relevant to current directory |
 | `/skills [category]` | Browse category | `/skills frontend` or `/skills database` |
 | `/skills [search]` | Search for skills | `/skills postgres` or `/skills react` |
-| `/skills list` | Show all categories | See all 33+ categories |
+| `/skills list` | Show all categories | See all 34+ categories |
 | `/discover-api` | Load API skills | REST, GraphQL, authentication |
 | `/discover-frontend` | Load frontend skills | React, Next.js, TypeScript |
 | `/discover-database` | Load database skills | SQL, NoSQL, optimization |
@@ -320,7 +320,7 @@ Now that you're set up and familiar with the basics, explore:
 
 ### 🔍 Explore Skills
 ```bash
-/skills list          # See all 33+ categories
+/skills list          # See all 34+ categories
 /skills [topic]       # Search for specific topics
 ```
 

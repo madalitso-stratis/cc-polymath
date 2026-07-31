@@ -64,7 +64,7 @@ rm -rf ~/.claude/plugins/cc-polymath
 
 ### How do I know which skills are available?
 
-List all 33+ categories:
+List all 34+ categories:
 ```
 /skills list
 ```
@@ -182,7 +182,7 @@ Loading 3-5 skills uses **less context than most project files**. This is why th
 
 ### How are skills organized?
 
-By **33+ categories** grouped into themes:
+By **34+ categories** grouped into themes:
 
 **Core Development** (125 skills)
 - Languages: Python, Rust, Zig, Go, JavaScript
@@ -466,7 +466,7 @@ Atomic skills let you load *exactly* what you need, no more. This precision is w
 - [PLUGIN.md](../PLUGIN.md) - Plugin architecture details
 
 **Explore Skills**
-- `/skills list` - All 33+ categories
+- `/skills list` - All 34+ categories
 - `/skills [topic]` - Search for specific topics
 - `Read ../skills/README.md` - Full skill catalog
 

@@ -3,7 +3,7 @@ name: discover-dotnet
 description: Automatically discover .NET/ASP.NET Core skills when working with C#, Clean Architecture, MediatR, CQRS, FastEndpoints, Entity Framework Core, or .NET Aspire. Activates for .NET backend and web API development tasks.
 license: MIT
 metadata:
-  author: rand
+  author: stratis
   version: "1.0"
 compatibility: Designed for Claude Code. Compatible with any agent supporting the Agent Skills format.
 ---

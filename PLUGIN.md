@@ -7,7 +7,7 @@
 
 ## Overview
 
-cc-polymath is a comprehensive Claude Code plugin that provides 410+ atomic, production-ready skills across 33+ domains, plus context-aware skill discovery commands and specialized subagents. It uses a gateway-based progressive loading architecture to minimize context usage while maximizing skill availability.
+cc-polymath is a comprehensive Claude Code plugin that provides 410+ atomic, production-ready skills across 34+ domains, plus context-aware skill discovery commands and specialized subagents. It uses a gateway-based progressive loading architecture to minimize context usage while maximizing skill availability.
 
 ## Plugin Structure
 
@@ -15,7 +15,7 @@ cc-polymath is a comprehensive Claude Code plugin that provides 410+ atomic, pro
 cc-polymath/
 ├── .claude-plugin/
 │   └── plugin.json              # Plugin manifest
-├── skills/                       # 410+ skills, 33+ domains
+├── skills/                       # 410+ skills, 34+ domains
 │   ├── README.md                 # Master catalog (gateway index)
 │   ├── discover-*/               # 24 gateway skills
 │   │   └── SKILL.md
@@ -89,7 +89,7 @@ cd cc-polymath
 - Guide to category indexes
 - Examples: `discover-frontend`, `discover-database`, `discover-ml`
 
-**Tier 2: Category Indexes (33+ indexes)**
+**Tier 2: Category Indexes (34+ indexes)**
 - Comprehensive category overviews
 - List all skills in category with descriptions
 - Load-on-demand when category is relevant
@@ -218,7 +218,7 @@ Leverages language-specific skills and can implement solutions in the best-fit l
 
 ## Skill Categories
 
-### Available Categories (33+ total)
+### Available Categories (34+ total)
 
 | Category | Skills | Description |
 |----------|--------|-------------|
@@ -245,7 +245,7 @@ Leverages language-specific skills and can implement solutions in the best-fit l
 {
   "name": "cc-polymath",
   "version": "2.0.0",
-  "description": "410+ atomic, production-ready skills with gateway-based progressive loading for Claude Code. 33+ domains including API design, databases, ML, diagrams (Mermaid), mathematics, testing, infrastructure, cryptography, protocols, MCP, agentic workflows, and more. Context-efficient three-tier architecture with auto-discovery gateways.",
+  "description": "410+ atomic, production-ready skills with gateway-based progressive loading for Claude Code. 34+ domains including API design, databases, ML, diagrams (Mermaid), mathematics, testing, infrastructure, cryptography, protocols, MCP, agentic workflows, and more. Context-efficient three-tier architecture with auto-discovery gateways.",
   "author": {
     "name": "rand"
   },
@@ -272,7 +272,7 @@ Leverages language-specific skills and can implement solutions in the best-fit l
   - Added 10 gateway discovery slash commands (`/discover-*`)
   - Created 3 specialized subagents (skill-navigator, architecture-advisor, polyglot-engineer)
   - Added marketplace.json for distribution
-  - Updated to 410+ skills across 33+ domains
+  - Updated to 410+ skills across 34+ domains
   - Enhanced keywords for better discoverability
   - Converted to Claude Code plugin
   - Added plugin manifest
@@ -281,7 +281,7 @@ Leverages language-specific skills and can implement solutions in the best-fit l
   - Added LICENSE for marketplace compatibility
 
 - **v1.0.0** - Manual installation
-  - 410+ skills across 33+ categories
+  - 410+ skills across 34+ categories
   - Gateway-based progressive loading
   - Manual sync with install.sh
 

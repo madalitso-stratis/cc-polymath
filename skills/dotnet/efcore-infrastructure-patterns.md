@@ -1,5 +1,5 @@
 ---
-name: efcore-infrastructure-patterns
+name: dotnet-efcore-infrastructure-patterns
 description: Implementing the Infrastructure layer with EF Core — entity configs, migrations, repositories
 ---
 
