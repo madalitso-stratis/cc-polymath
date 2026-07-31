@@ -1,5 +1,5 @@
 ---
-description: Discover and activate relevant skills (410+ skills, 23 gateways)
+description: Discover and activate relevant skills (410+ skills, 24 gateways)
 argument-hint: [category|search-term] (optional)
 context: fork
 ---
@@ -196,7 +196,7 @@ RELATED: discover-debugging, discover-database
 
 **If ARGUMENT = "list":**
 
-Show all 23 gateway categories:
+Show all 24 gateway categories:
 ```
 ALL CATEGORIES (410+ skills)
 
@@ -279,7 +279,7 @@ Skills catalog not found at skills/README.md
 Expected structure:
 skills/
 ├── README.md              (Master catalog)
-├── discover-*/SKILL.md    (23 gateway skills)
+├── discover-*/SKILL.md    (24 gateway skills)
 └── {category}/INDEX.md    (Category indexes)
 
 Is your repository in a different location?

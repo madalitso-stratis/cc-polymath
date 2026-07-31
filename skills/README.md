@@ -255,12 +255,22 @@ Read data/INDEX.md
 
 ---
 
-### Mobile (4 skills)
+### Mobile (12 skills)
 **Gateway**: `discover-mobile`
-**Keywords**: iOS, Swift, SwiftUI, mobile, SwiftData, concurrency
-**Skills**: SwiftUI architecture, Swift concurrency, iOS networking, iOS testing
+**Keywords**: iOS, Swift, SwiftUI, Android, .NET MAUI, mobile, SwiftData, concurrency
+**Skills**: SwiftUI architecture, Swift concurrency, iOS networking, iOS testing, React Native setup/navigation/performance/native modules, .NET MAUI MVVM architecture, .NET MAUI platform services
 
 Read mobile/INDEX.md
+
+
+---
+
+### .NET (5 skills)
+**Gateway**: `discover-dotnet`
+**Keywords**: .NET, C#, ASP.NET Core, Clean Architecture, CQRS, MediatR, FastEndpoints, Entity Framework Core, .NET Aspire
+**Skills**: Clean Architecture layering, CQRS vertical slices with MediatR, FastEndpoints REST APIs (REPR pattern), EF Core infrastructure patterns, .NET Aspire orchestration
+
+Read dotnet/INDEX.md
 
 
 ---

@@ -7,10 +7,28 @@ description: Index of Mobile Skills
 
 ## Category Overview
 
-**Total Skills**: 10
+**Total Skills**: 12
 **Category**: mobile
 
 ## Skills in This Category
+
+### dotnet-maui-mvvm-architecture.md
+**Description**: Structuring .NET MAUI apps with MVVM and CommunityToolkit.Mvvm
+
+**Load this skill**:
+Read dotnet-maui-mvvm-architecture.md
+
+
+---
+
+### dotnet-maui-platform-services.md
+**Description**: Implementing platform-specific services in .NET MAUI with partial classes and DI
+
+**Load this skill**:
+Read dotnet-maui-platform-services.md
+
+
+---
 
 ### ios-networking.md
 **Description**: Building network layers for iOS/macOS apps
@@ -109,6 +127,8 @@ Read swiftui-navigation.md
 ls skills/mobile/*.md
 
 # Load specific skills
+Read dotnet-maui-mvvm-architecture.md
+Read dotnet-maui-platform-services.md
 Read ios-networking.md
 Read ios-testing.md
 Read react-native-native-modules.md

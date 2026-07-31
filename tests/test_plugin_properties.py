@@ -300,7 +300,7 @@ class TestConfigProperties(unittest.TestCase):
 
     def test_gateway_count_accurate(self):
         gateways = all_gateway_skills()
-        self.assertEqual(len(gateways), 23, f"Expected 23 gateways, found {len(gateways)}")
+        self.assertEqual(len(gateways), 24, f"Expected 24 gateways, found {len(gateways)}")
 
 
 class TestCrossReferenceConsistency(unittest.TestCase):

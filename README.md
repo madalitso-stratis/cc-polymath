@@ -53,7 +53,7 @@ Each skill is **focused, self-contained, and composable**:
 
 ### Three-Tier Architecture
 
-**Tier 1: Gateway Skills (23 auto-discovered Agent Skills)**
+**Tier 1: Gateway Skills (24 auto-discovered Agent Skills)**
 Lightweight entry points that activate automatically based on keywords:
 - `discover-api` → triggers on "REST", "GraphQL", "authentication"
 - `discover-database` → triggers on "PostgreSQL", "MongoDB", "Redis"
@@ -297,7 +297,8 @@ cat skills/database/redpanda-streaming.md
         ├── api/           # REST, GraphQL, auth (7)
         ├── database/      # Postgres, MongoDB, Redis, streaming (11)
         ├── frontend/      # React, Next.js, performance (8)
-        ├── mobile/        # iOS/Swift, SwiftUI, SwiftData (10)
+        ├── mobile/        # iOS/Swift, SwiftUI, SwiftData, .NET MAUI (12)
+        ├── dotnet/        # ASP.NET Core Clean Architecture, CQRS, EF Core, Aspire (5)
         ├── testing/       # Unit, integration, e2e (6)
         ├── caching/       # Multi-layer caching (7)
         ├── build-systems/ # Make, CMake, Gradle, Maven, Bazel (8)
@@ -344,7 +345,8 @@ cat skills/database/redpanda-streaming.md
 |--------|-------------|--------|---------|
 | **Backend** | Python, Zig, Rust, Go | 18 | discover-backend |
 | **Frontend** | React, Next.js, TypeScript | 9 | discover-frontend |
-| **Mobile** | SwiftUI, Swift, React Native | 10 | discover-mobile |
+| **Mobile** | SwiftUI, Swift, React Native, .NET MAUI | 12 | discover-mobile |
+| **.NET** | ASP.NET Core, Clean Architecture, EF Core, Aspire | 5 | discover-dotnet |
 | **Build** | Make, CMake, Gradle, Maven, Bazel | 8 | discover-cicd |
 | **Debug** | GDB, LLDB, pdb, DevTools, Valgrind | 14 | discover-debugging |
 | **Cloud** | AWS, GCP, Modal, Vercel, Cloudflare | 27 | discover-infra |
@@ -545,4 +547,4 @@ Feel free to fork and adapt for your own use. Pull requests welcome.
 
 ---
 
-**410+ atomic skills** • **23 gateway Agent Skills** • **33+ categories** • **100% CI-validated**
+**410+ atomic skills** • **24 gateway Agent Skills** • **34+ categories** • **100% CI-validated**

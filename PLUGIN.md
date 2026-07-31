@@ -17,7 +17,7 @@ cc-polymath/
 │   └── plugin.json              # Plugin manifest
 ├── skills/                       # 410+ skills, 33+ domains
 │   ├── README.md                 # Master catalog (gateway index)
-│   ├── discover-*/               # 23 gateway skills
+│   ├── discover-*/               # 24 gateway skills
 │   │   └── SKILL.md
 │   ├── api/                      # Category directories
 │   │   └── INDEX.md              # Category index
@@ -508,7 +508,7 @@ cd skills
 ├── .claude-plugin/
 │   └── plugin.json          # Metadata read by Claude Code
 ├── skills/                   # Discovered by skill system
-│   ├── README.md             # Master catalog (23 gateways)
+│   ├── README.md             # Master catalog (24 gateways)
 │   ├── discover-*/SKILL.md   # Gateway skills
 │   └── */INDEX.md            # Category indexes
 ├── commands/                 # Auto-registered by plugin system
