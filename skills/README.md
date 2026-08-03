@@ -61,10 +61,10 @@ Read database/INDEX.md
 
 ---
 
-### Frontend (8 skills + elegant-design Agent Skill)
+### Frontend (15 skills + elegant-design Agent Skill)
 **Gateway**: `discover-frontend`
-**Keywords**: React, Next.js, UI, components, state management, forms
-**Skills**: React patterns, Next.js App Router, state management, data fetching, forms, accessibility, performance, SEO
+**Keywords**: React, Next.js, Blazor, .NET, Razor components, UI, components, state management, forms
+**Skills**: React patterns, Next.js App Router, state management, data fetching, forms, accessibility, performance, SEO, Blazor component architecture, Blazor render modes (Server/WASM/Auto), Blazor state management, Blazor forms/validation
 **Note**: `elegant-design` is a separate Agent Skill for UI design work
 
 Read frontend/INDEX.md

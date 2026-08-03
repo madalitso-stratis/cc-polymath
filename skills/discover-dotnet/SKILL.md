@@ -88,6 +88,15 @@ Read ../dotnet/dotnet-aspire-orchestration.md      # AppHost graph, ServiceDefau
 Read ../dotnet/dotnet-clean-architecture.md        # Applied identically to each service
 
 
+### Full-Stack .NET App (Blazor Frontend + API Backend)
+**Sequence**: Backend (this gateway) → Blazor frontend (`discover-frontend`)
+
+Read ../dotnet/dotnet-clean-architecture.md              # Backend layering
+Read ../dotnet/fastendpoints-rest-api.md                 # API surface the Blazor app calls
+Read ../frontend/dotnet-blazor-render-modes.md           # Choose Server/WASM/Auto for the Blazor app
+Read ../frontend/dotnet-blazor-forms-validation.md       # Forms that submit to the API above
+
+
 ## Skill Selection Guide
 
 **Choose Clean Architecture skills when:**
@@ -125,6 +134,9 @@ Read ../dotnet/dotnet-clean-architecture.md        # Applied identically to each
 
 **Mobile skills** (`discover-mobile`):
 - `dotnet-maui-mvvm-architecture`, `dotnet-maui-platform-services` — the .NET MAUI client consuming this API
+
+**Frontend skills** (`discover-frontend`):
+- `dotnet-blazor-component-architecture`, `dotnet-blazor-render-modes`, `dotnet-blazor-state-management`, `dotnet-blazor-forms-validation` — the Blazor web client consuming this API
 
 ## Usage Instructions
 

@@ -1,6 +1,6 @@
 ---
 name: discover-frontend
-description: Automatically discover frontend development skills when working with React, Next.js, UI components, state management, data fetching, forms, accessibility, performance optimization, or SEO. Activates for frontend web development tasks.
+description: Automatically discover frontend development skills when working with React, Next.js, Blazor, .NET, Razor components, UI components, state management, data fetching, forms, accessibility, performance optimization, or SEO. Activates for frontend web development tasks.
 license: MIT
 metadata:
   author: rand
@@ -16,6 +16,8 @@ Provides automatic access to comprehensive frontend development skills.
 This skill auto-activates when you're working with:
 - React component development
 - Next.js applications and App Router
+- Blazor components, render modes (Server/WebAssembly/Auto), and forms
+- .NET Razor components
 - State management (Context, Zustand, Redux)
 - Data fetching (SWR, React Query, Server Actions)
 - Form handling and validation
@@ -35,9 +37,9 @@ This skill auto-activates when you're working with:
 
 ### Quick Reference
 
-The Frontend category contains 16 skills across 2 subcategories (+ elegant-design):
+The Frontend category contains 20 skills across 2 subcategories (+ elegant-design):
 
-**Frontend (11 skills):**
+**Frontend (15 skills):**
 1. **react-component-patterns** - Component design, composition, hooks, performance
 2. **nextjs-app-router** - Next.js 14+ App Router, Server Components, routing
 3. **react-state-management** - Context, Zustand, Redux Toolkit patterns
@@ -48,7 +50,12 @@ The Frontend category contains 16 skills across 2 subcategories (+ elegant-desig
 8. **nextjs-seo** - SEO with Next.js, metadata API, structured data
 9. **web-workers** - Web Workers API, message passing, offloading computation
 10. **browser-concurrency** - Service Workers, SharedWorkers, Worklets, PWAs
-11. **elegant-design/SKILL.md** - World-class accessible interfaces (separate Agent Skill)
+11. **react-rules** - 43 opinionated rules for React development
+12. **dotnet-blazor-component-architecture** - Blazor component model, parameters, cascading values, composition
+13. **dotnet-blazor-render-modes** - Static SSR vs InteractiveServer vs InteractiveWebAssembly vs InteractiveAuto
+14. **dotnet-blazor-state-management** - Scoped state containers, cascading state, syncing with the backend
+15. **dotnet-blazor-forms-validation** - EditForm, DataAnnotations/FluentValidation, server-side error mapping
+16. **elegant-design/SKILL.md** - World-class accessible interfaces (separate Agent Skill)
 
 **TUI (5 skills):** See `../tui/INDEX.md`
 
@@ -64,6 +71,16 @@ Read ../tui/INDEX.md
 Read ../frontend/nextjs-app-router.md          # Setup routing, layouts
 Read ../frontend/react-component-patterns.md   # Build components
 Read ../frontend/react-data-fetching.md        # Fetch data
+
+
+### New Blazor Web App
+**Sequence**: Component Architecture → Render Modes → Forms → State
+
+Read ../frontend/dotnet-blazor-component-architecture.md  # Component model, parameters, composition
+Read ../frontend/dotnet-blazor-render-modes.md             # Choose Static/Server/WASM/Auto per page
+Read ../frontend/dotnet-blazor-forms-validation.md         # EditForm, validation, backend error mapping
+Read ../frontend/dotnet-blazor-state-management.md         # Shared/persisted state across components
+
 
 
 ### Elegant UI Design
@@ -164,6 +181,26 @@ Read ../frontend/frontend-performance.md    # Optimize overall performance
 - Worker pools for parallel processing
 - TypeScript type safety
 
+**Blazor Component Architecture** → `dotnet-blazor-component-architecture.md`:
+- Parameters, cascading values, EventCallback
+- Component composition (RenderFragment, templated components)
+- Lifecycle methods and when JS interop is safe to call
+
+**Blazor Render Modes** → `dotnet-blazor-render-modes.md`:
+- Static SSR vs InteractiveServer vs InteractiveWebAssembly vs InteractiveAuto
+- Prerendering pitfalls and PersistentComponentState
+- Choosing a mode per page/component
+
+**Blazor State Management** → `dotnet-blazor-state-management.md`:
+- Scoped DI state containers vs cascading values
+- Persisting state across a lost Server circuit
+- Syncing client state with the backend API
+
+**Blazor Forms & Validation** → `dotnet-blazor-forms-validation.md`:
+- EditForm/EditContext, DataAnnotations, FluentValidation
+- Mapping backend validation errors back into the form
+- File uploads with InputFile
+
 **Browser Concurrency** → `browser-concurrency.md`:
 - Service Workers for offline support and PWAs
 - SharedWorkers for cross-tab state
@@ -199,6 +236,11 @@ Frontend skills commonly combine with:
 - Server Actions with database queries
 - ORM integration in Server Components
 - Real-time data updates
+
+**.NET skills** (`discover-dotnet`):
+- Blazor components calling a FastEndpoints API (`dotnet-fastendpoints-rest-api.md`)
+- Server-side validation rules shared with `dotnet-vertical-slice-usecases.md`'s FluentValidation validators
+- Running the Blazor app alongside its backend via `dotnet-aspire-orchestration.md`
 
 **Deployment skills** (`discover-deployment`):
 - Vercel deployment
@@ -252,6 +294,28 @@ Read ../frontend/web-workers.md
 **"Build a PWA with offline support"**:
 Read ../frontend/browser-concurrency.md
 
+
+**"Build a Blazor component"**:
+Read ../frontend/dotnet-blazor-component-architecture.md
+
+
+**"Should this Blazor page be Server or WebAssembly?"**:
+Read ../frontend/dotnet-blazor-render-modes.md
+
+
+**"Build a Blazor form with validation"**:
+Read ../frontend/dotnet-blazor-forms-validation.md
+
+
+## React vs Blazor
+
+Both live in this category because both are "frontend" domains, but they're not interchangeable stacks — pick based on the project's actual language/runtime, not a feature comparison:
+
+**Use React/Next.js skills** when the project is a JS/TS frontend (any backend, or a Next.js full-stack app).
+
+**Use Blazor skills** when the project is a .NET solution and the UI is (or will be) Razor components — typically paired with the backend skills in `discover-dotnet` (`dotnet-fastendpoints-rest-api.md`, `dotnet-vertical-slice-usecases.md`) for a full-stack .NET app.
+
+Don't mix the two within one app's UI layer; if a .NET backend serves a React SPA, that's `discover-dotnet` (backend) + this gateway's **React** skills, not the Blazor ones.
 
 ## React vs Next.js Decision
 

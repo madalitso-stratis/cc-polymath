@@ -38,7 +38,7 @@ ls *.{json,md,go,py,rs,swift,zig,toml,yaml,yml} 2>/dev/null | head -20
 - `Cargo.toml` → **discover-wasm** if WASM, **discover-api** for web services
 - `build.zig` → **discover-zig**
 - `*.swift`, `*.xcodeproj` → **discover-mobile** (iOS/Swift)
-- `*.csproj`, `*.sln`, `*.slnx`, `global.json` → **discover-dotnet** (ASP.NET Core), **discover-mobile** if a `.maui`/`net*-android`/`net*-ios` target framework is present
+- `*.csproj`, `*.sln`, `*.slnx`, `global.json` → **discover-dotnet** (ASP.NET Core), **discover-mobile** if a `.maui`/`net*-android`/`net*-ios` target framework is present, **discover-frontend** if `.razor` files or a Blazor project (`*.Web`/`*.Client` referencing `Microsoft.AspNetCore.Components`) are present
 - `Dockerfile`, `docker-compose.yml` → **discover-infra**
 - `.beads/` → Beads workflow skills (root level)
 - `tests/`, `__tests__/` → **discover-testing**
@@ -57,6 +57,7 @@ Map to gateway keywords:
 - "GraphQL" → **discover-api**
 - ".NET", "C#", "ASP.NET Core", "Clean Architecture", "CQRS", "MediatR", "FastEndpoints", "Entity Framework" → **discover-dotnet**
 - ".NET MAUI", "MAUI" → **discover-mobile**
+- "Blazor", "Razor components", "InteractiveServer", "InteractiveWebAssembly" → **discover-frontend**
 - "Postgres", "MongoDB", "Redis" → **discover-database**
 - "Docker", "Kubernetes", "Terraform", "AWS", "GCP" → **discover-infra**
 - "CI/CD", "GitHub Actions", "Make", "CMake", "Bazel" → **discover-cicd**
@@ -88,7 +89,7 @@ RECOMMENDED FOR THIS PROJECT:
   Read ../skills/discover-[category]/SKILL.md
 
 CATEGORIES (410+ skills):
-Frontend (8) | Database (8) | API (7) | Testing (6) | Diagrams (8) | ML (30)
+Frontend (15) | Database (8) | API (7) | Testing (6) | Diagrams (8) | ML (30)
 Math (19) | Debugging (14) | Build Systems (8) | Caching (7) | Observability (8)
 Containers (5) | CI/CD (4) | PLT (13) | Formal (10) | Cloud (13)
 
@@ -210,7 +211,7 @@ BACKEND & DATA:
   discover-dotnet (5)      - Clean Architecture, CQRS/MediatR, FastEndpoints, EF Core, .NET Aspire
 
 FRONTEND & MOBILE:
-  discover-frontend (13)   - React, Next.js, state management, TUI
+  discover-frontend (20)   - React, Next.js, Blazor, state management, TUI
   discover-mobile (12)     - iOS, Swift, SwiftUI, Android, .NET MAUI, concurrency
 
 INFRASTRUCTURE:

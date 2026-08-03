@@ -296,7 +296,7 @@ cat skills/database/redpanda-streaming.md
     └── Skills by Category
         ├── api/           # REST, GraphQL, auth (7)
         ├── database/      # Postgres, MongoDB, Redis, streaming (11)
-        ├── frontend/      # React, Next.js, performance (8)
+        ├── frontend/      # React, Next.js, Blazor, performance (15)
         ├── mobile/        # iOS/Swift, SwiftUI, SwiftData, .NET MAUI (12)
         ├── dotnet/        # ASP.NET Core Clean Architecture, CQRS, EF Core, Aspire (5)
         ├── testing/       # Unit, integration, e2e (6)
@@ -344,7 +344,7 @@ cat skills/database/redpanda-streaming.md
 | Domain | Technologies | Skills | Gateway |
 |--------|-------------|--------|---------|
 | **Backend** | Python, Zig, Rust, Go | 18 | discover-backend |
-| **Frontend** | React, Next.js, TypeScript | 9 | discover-frontend |
+| **Frontend** | React, Next.js, TypeScript, Blazor | 15 | discover-frontend |
 | **Mobile** | SwiftUI, Swift, React Native, .NET MAUI | 12 | discover-mobile |
 | **.NET** | ASP.NET Core, Clean Architecture, EF Core, Aspire | 5 | discover-dotnet |
 | **Build** | Make, CMake, Gradle, Maven, Bazel | 8 | discover-cicd |

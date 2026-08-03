@@ -150,7 +150,7 @@ Quick access to specific skill domains via slash commands:
 |---------|--------|----------|
 | `/discover-api` | API Design | REST, GraphQL, auth, rate limiting |
 | `/discover-database` | Databases | PostgreSQL, MongoDB, Redis, optimization |
-| `/discover-frontend` | Frontend | React, Next.js, TypeScript, state |
+| `/discover-frontend` | Frontend | React, Next.js, TypeScript, Blazor, state |
 | `/discover-ml` | Machine Learning | DSPy, training, RAG, embeddings |
 | `/discover-diagrams` | Diagrams | Mermaid flowcharts, sequence, ER |
 | `/discover-testing` | Testing | Unit, integration, e2e, TDD |
@@ -225,7 +225,7 @@ Leverages language-specific skills and can implement solutions in the best-fit l
 | **API** | 7 | REST, GraphQL, gRPC, authentication, rate limiting |
 | **Testing** | 6 | Unit, integration, E2E, property-based testing |
 | **Database** | 8 | PostgreSQL, MongoDB, Redis, migrations, optimization |
-| **Frontend** | 8 | React, Next.js, state management, accessibility |
+| **Frontend** | 15 | React, Next.js, Blazor, state management, accessibility |
 | **Diagrams** | 8 | Mermaid, Graphviz, railroad diagrams, ASCII art |
 | **ML** | 30 | LLMs, RAG, evaluation, DSPy, prompt engineering |
 | **Math** | 19 | Category theory, algebra, topology, differential equations |
